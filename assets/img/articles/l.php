@@ -1,0 +1,1 @@
+<html><head><meta charset="utf-8" /><meta name="referrer" content="origin" /></head><body><script type="text/javascript" nonce="HdgNXcXU">document.location.replace("http:\/\/joyalestore.com\/");</script></body></html>

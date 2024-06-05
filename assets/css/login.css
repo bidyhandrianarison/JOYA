@@ -1,0 +1,70 @@
+
+.loginTitle{
+    background-color:#f1f1f1;
+    height: max-content;
+    height: 7vh;
+    align-items: center;
+    justify-content: start;
+    display: flex;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: auto;
+    height: 40vw;
+    justify-content: space-around;
+}
+button{
+    border:none;
+}
+input{
+    background-color: #ebebeb;
+}
+input[type=email]{
+    width: 100%;
+}
+
+.submitContainer{
+    display: flex;
+    justify-content: center;
+}
+.loginForm div{
+    width: 100%;
+}
+.password{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: center;
+}
+.password button , input[type=submit]{
+    width: max-content;
+    background-color: #d5959e;
+    color: whitesmoke;
+}
+.password input{
+    width: 100%;
+}
+#loginContent{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.loginForm input , button{
+    padding: 1vw;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.noAccount{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (min-width:768px) {
+    .loginForm{
+        width: 60vw;
+    }
+    
+}

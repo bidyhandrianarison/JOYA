@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 2vw;
+}
+
+
+.otherView{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    padding: 1vh 10vw;
+    gap: 3vw;
+}
+.otherView img{
+    width: 30%;
+    height: auto;
+}
+.extern{
+    display: flex;
+    flex-direction: column;
+}
+h2,h4,hr{
+    color: #d5959e;
+}
+hr{
+    border: 1px solid;
+}
+input[type=submit]{
+    background-color: #d5959e;
+    color: whitesmoke;
+    width: 35vw;
+    padding: 1vw;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form div{
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+}
+form div input{
+    width: 50%;
+}
+#taille input{
+    background-color: rgba(206, 201, 201, 0.795);
+}
+li{
+    list-style-type: none;
+}
+
+h5{text-align: center;}
+.ending input[type=email]{
+    width: 20vw;
+    border: 1px solid black;
+   
+}
+.ending input[type=submit]{
+    width: 45vw;
+    color: black;
+}
+.titleCenter{
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    .linkContainer{
+        background-color: white;
+    }
+    .linkContainer a{
+        color: black;
+    }
+    header{
+        background-image: url(../img/bg-breadcrumb.jpg);
+        margin: 0;
+        background-size: cover;
+        justify-content: start;
+        padding: 5vh 1vw;
+        margin-bottom: 10vh;
+    }
+    .products{
+        width:50vw;
+    }
+    .extern{
+        flex-direction: row;
+    }
+    .otherView{
+        width: 50vw;
+    }
+    .filtre{
+        flex-direction: row;
+    }
+    select{
+        width: 65%;
+    }
+    .filtre input[type=submit]{
+        width: 35%;
+    }
+
+
+}
