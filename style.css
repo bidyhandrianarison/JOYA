@@ -12,6 +12,9 @@
   font-size: 1.5vw;
   font-family: amatic;
 }
+ol,ul{
+  padding-left: 0 !important;
+}
 main{
   width: 100vw;
 }
@@ -191,6 +194,31 @@ input{
   position: absolute;
   display: none;
 }
+#productDetail{
+  display: none;
+}
+.showed:hover{
+  cursor: pointer;
+  color: #d5959e;
+}
+.dropdown:hover .notShowed
+  {
+      display: block;
+      cursor: pointer;
+      z-index: 2;
+}
+#shop{
+  position: absolute;
+  display: none;
+}
+.largeMenu .notShowed{
+  background-color: white;
+  width: 100%;
+}
+.largeMenu .notShowed li:hover{
+  color: #d5959e;
+}
+
 @media screen and (min-width:768px) {
   .produits{
     flex-direction:row;

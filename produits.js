@@ -1,15 +1,19 @@
+import { login } from "./assets/js/formulaire.js";
 const produits=await fetch('produits.json').then(produits => produits.json());
-function eraseContent(){
+export function eraseContent(){
     document.querySelector('#dynamic').innerHTML=`
     <section class="produits">
       </section>
       <section id="loginContent">
-      </section>`
+      </section>
+      <section id="productDetail">
+      </section>
+      `;
+
 }
 function genererProduits(produits){
-    for(let i=0;i<produits.length;i++)
-    {
-        const sectionProduits=document.querySelector(".produits");
+    const sectionProduits=document.querySelector(".produits");
+    for(let i=0;i<produits.length;i++){
         const produitElement=document.createElement("article");
         //IMAGE
         const imageElement=document.createElement("img");
@@ -34,11 +38,58 @@ function genererProduits(produits){
                 starElement.innerHTML+='<i class="fa-solid fa-star text-secondary">';
             };
         produitElement.appendChild(starElement);
-        sectionProduits.appendChild(produitElement);
-    }
-   
-
+        produitElement.addEventListener("click",()=>{
+            afficherDetailProduit(produits[i]);
+        })
+    sectionProduits.appendChild(produitElement);
+    };
 };
+function afficherDetailProduit(produit){
+    const productDetail=document.querySelector('#productDetail');
+    titleNew.innerHTML="";
+    productDetail.innerHTML=
+    `
+    <div>
+    <link rel="stylesheet" href="assets/css/products.css">
+        <div class="extern">
+        <section class="products">
+            <div class="mainArticle">
+                <img src="${produit.image}" alt="${produit.nom}">
+            </div>
+        </section>
+        <section class="information">
+            <h2>${produit.nom}</h2>
+            <h4>${produit.prix}</h4>
+            <hr>
+            <form action="">
+                <div id="taille">
+                    <label for="taille">Taille</label>
+                    <input type="number" name="taille">
+                </div>
+                <div>
+                    <label for="quantite">Quantité</label>
+                    <input type="number" name="quantite">
+                </div>
+                <input type="submit" value="AJOUTER AU PANIER">
+            </form>
+            <ul>
+                <li><img class="icone" src="assets/img/articles/rea_customer_service.png" alt=""><span>Service client au 06 49 54 94
+                        19</span></li>
+                <li><img class="icone" src="assets/img/articles/reassurance-joya-le-store-moyens-paiements.png"
+                        alt=""><span>Paiements sécurisés & 3x sans frais avec Alma</span></li>
+                <li><img class="icone" src="assets/img/articles/rea_shipping.png" alt=""><span>Livraison offerte avec Mondial Relay à
+                        partir de 100$</span></li>
+                <li><img class="icone" src="assets/img/articles/rea_click_collect.png" alt=""><span>Click & Collect à la Grande
+                        Matte</span></li>
+            </ul>
+            <hr>
+        </section>
+        </div>
+    </div>
+    `;
+    productDetail.style.display="block";
+    document.querySelector(".produits").style.display="none";
+}
 //PAGE D'ACCUEIL
 const filtreFirst=produits.filter(produits=>produits.description==="Nouveautés");
 const titleNew=document.createElement('h2');
@@ -90,14 +141,14 @@ barre.addEventListener("click",function(){
 });
 
 //PRODUCTS
-const articles = document.querySelectorAll("article");
+/*const articles = document.querySelectorAll("article");
 for(let i=0;i<articles.length;i++){
     articles[i].addEventListener('click',function(){
         
     })
-}
+}*/
 //MONTRER LES ELEMENTS CACHES ONCLICK
-const hidden=document.querySelectorAll(".notShowed");
+/*const hidden=document.querySelectorAll(".notShowed");
 const account=document.querySelector("#profile");
 account.addEventListener("click",function(){
     account.style.cursor="pointer";
@@ -110,36 +161,15 @@ account.addEventListener("click",function(){
     //     hidden[0].style.display="block";
     //     document.querySelector(".showed").style.color="#d5959e";
     // }
-});
+});*/
 //SE CONNECTER
-const login=document.querySelector('#login');
-login.addEventListener('click',function(){
-  eraseContent();
-    const loginContent=document.getElementById('loginContent');
-   loginContent.innerHTML= `
-    <div id="#loginContent">
-    <link rel="stylesheet" href="assets/css/login.css">
-
-    <div class="loginTitle">
-    <h2>CONNECTEZ-VOUS A VOTRE COMPTE</h2>
-</div>
-<form action="" class="loginForm shadow p-3 mb-5 bg-body-tertiary rounded">
-    <div>
-        <div><label for="">Email</label></div>
-        <div><input type="email" name="" id=""></div>
-    </div>
-    <div>
-        <div><label for="">Mot de Passe </label></div>
-        <div class="password">
-            <div><input type="password" name="" id=""></div>
-            <button>MONTRER</button>
-        </div>
-        <div class="noAccount"><a href="">Mot de passe oublié?</a></div>
-    </div>
-    <div class="submitContainer"><input type="submit" value="SE CONNECTER"></div>
-    <hr>
-    <div class="noAccount">Pas de compte</div>
-</form>
-    </div>
-    `;
-})
+login();
+const menu=document.querySelectorAll(".largeMenu .notShowed li");
+for(let i=0;i<menu.length;i++){
+    menu[i].addEventListener("click",function(){
+        const produitsFiltres=produits.filter(produits => produits.categorie==menu[i].value);
+        titleNew.innerHTML="";
+        eraseContent();
+        genererProduits(produitsFiltres);
+    })
+}

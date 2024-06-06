@@ -30,7 +30,7 @@
       <i id="find" class="fa-solid fa-magnifying-glass"></i>
     </div>
     <div class="menu">
-      <div id="profile"><div class="showed"><i class="fa fa-user"></i><span>MON COMPTE <i class="fa-solid fa-angle-down"></i></div>
+      <div class="dropdown"><div class="showed"><i class="fa fa-user"></i><span>MON COMPTE <i class="fa-solid fa-angle-down"></i></div>
                         <ul class="notShowed">
                           <li id="login"><i class="fa-solid fa-lock"></i>SE CONNECTER</li>
                           <li><i></i>MON COMPTE</li>
@@ -48,7 +48,16 @@
   
       <i id="iconeMenu" class="fa-solid fa-bars white"></i>
       <div class="largeMenu">
-        <button id="readyToWear">Prêt à porter</button>
+        <div class="dropdown">
+          <button id="readyToWear">Prêt à porter<i class="fa-solid fa-angle-down"></i></button>
+          <ul class="notShowed">
+            <li value="robe">Robes</li>
+            <li value="jupe">Jupes</li>
+            <li value="pantalon">Pantalon</li>
+            <li value="">Tee-shirts</li>
+            <li value="">Chemisiers</li>
+        </ul>
+        </div>
         <button id="basket">Chaussures</button>
         <button id="accessories">Accessoires</button>
         <button id="sac">Sacs & petite maroquinerie</button>
@@ -61,7 +70,7 @@
   </nav>
 
   <main>
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active"><img src="assets/img/articles/carousel1.jpg" alt="" class="d-block w-100">
         </div>
@@ -78,13 +87,15 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
-    </div>
+    </div> -->
     <section id="dynamic">
       <section class="produits">
       </section>
       <section id="loginContent">
       </section>
+      <section id="productDetail"></section>
     </section>
+    <section id="shop"></section>
   </main>
   <footer>
     <section class="box">
@@ -153,5 +164,4 @@
 <script src="assets/js/jquery-3.7.1.slim.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script type="module" src="produits.js"></script>
-
 </html>
