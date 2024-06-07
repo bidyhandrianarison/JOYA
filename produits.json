@@ -2,7 +2,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket1.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -10,7 +10,7 @@
     {
         "nom":"Sneakers",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket2.jpg" ,
         "description":"Nouveautés",
         "disponibilite":true
@@ -18,7 +18,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket3.jpg" ,
         "description":"Bonne qualité",
         "disponibilite":true
@@ -26,7 +26,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket4.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -34,7 +34,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket4.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -42,7 +42,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket4.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -50,7 +50,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket5.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -58,7 +58,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket6.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -66,7 +66,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket7.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -74,7 +74,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket8.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -82,7 +82,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket9.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -90,7 +90,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket10.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -98,7 +98,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket11.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -106,7 +106,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket12.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -114,7 +114,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket13.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -122,7 +122,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket14.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -130,7 +130,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket15.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -138,7 +138,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket16.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -146,7 +146,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket17.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -154,7 +154,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket18.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -162,7 +162,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket19.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -170,7 +170,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket20.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -178,7 +178,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket21.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -186,7 +186,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket22.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -194,7 +194,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket23.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -202,7 +202,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket24.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -210,7 +210,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket25.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -218,7 +218,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket26.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -226,7 +226,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket27.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -234,7 +234,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket28.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -242,7 +242,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket29.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -250,7 +250,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket30.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -258,7 +258,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket31.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -266,7 +266,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket32.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -274,7 +274,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket32.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -282,7 +282,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket33.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -290,7 +290,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket34.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -298,7 +298,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"Basket" ,
+        "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket35.jpg" ,
         "description":"Léger",
         "disponibilite":true
@@ -306,7 +306,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"chemise" ,
+        "categorie":"Chemises" ,
         "image":"assets/img/articles/chemises/chemise1.jpg" ,
         "description":"Nouveautés",
         "disponibilite":true
@@ -314,7 +314,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"chemise" ,
+        "categorie":"Chemises" ,
         "image":"assets/img/articles/chemises/chemise2.jpg" ,
         "description":"Bonne qualité",
         "disponibilite":true
@@ -322,7 +322,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"chemise" ,
+        "categorie":"Chemises" ,
         "image":"assets/img/articles/chemises/chemise3.jpg" ,
         "description":"Bonne qualité",
         "disponibilite":true
@@ -330,7 +330,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"chemise" ,
+        "categorie":"Chemises" ,
         "image":"assets/img/articles/chemises/chemise4.jpg" ,
         "description":"Bonne qualité",
         "disponibilite":true
@@ -338,7 +338,55 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"jupe" ,
+        "categorie":"Chemises" ,
+        "image":"assets/img/articles/chemises/chemise5.jpg" ,
+        "description":"Bonne qualité",
+        "disponibilite":true
+    },
+    {
+        "nom":"",
+        "prix": 55.00 ,
+        "categorie":"Chemises" ,
+        "image":"assets/img/articles/chemises/chemise6.jpg" ,
+        "description":"Bonne qualité",
+        "disponibilite":true
+    },
+    {
+        "nom":"",
+        "prix": 55.00 ,
+        "categorie":"Chemises" ,
+        "image":"assets/img/articles/chemises/chemise7.jpg" ,
+        "description":"Nouveautés",
+        "disponibilite":true
+    },
+    {
+        "nom":"",
+        "prix": 55.00 ,
+        "categorie":"Chemises" ,
+        "image":"assets/img/articles/chemises/chemise6.jpg" ,
+        "description":"Bonne qualité",
+        "disponibilite":true
+    },
+    {
+        "nom":"",
+        "prix": 55.00 ,
+        "categorie":"Chemises" ,
+        "image":"assets/img/articles/chemises/chemise7.jpg" ,
+        "description":"Bonne qualité",
+        "disponibilite":true
+    },
+    {
+        "nom":"",
+        "prix": 55.00 ,
+        "categorie":"Chemises" ,
+        "image":"assets/img/articles/chemises/chemise8.jpg" ,
+        "description":"Bonne qualité",
+        "disponibilite":true
+    },
+    {
+        "nom":"",
+        "prix": 55.00 ,
+        "categorie":"Jupes" ,
         "image":"assets/img/articles/jupes/jupe1.jpg" ,
         "description":"Nouveautés",
         "disponibilite":true
@@ -346,7 +394,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"jupe" ,
+        "categorie":"Jupes" ,
         "image":"assets/img/articles/jupes/jupe2.jpg" ,
         "description":"Bonne qualité",
         "disponibilite":true
@@ -354,7 +402,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"pantalon" ,
+        "categorie":"Pantalons" ,
         "image":"assets/img/articles/pantalon/pantalon1.jpg" ,
         "description":"Nouveautés",
         "disponibilite":true
@@ -362,7 +410,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"pantalon" ,
+        "categorie":"Pantalons" ,
         "image":"assets/img/articles/pantalon/pantalon2.jpg" ,
         "description":"Bonne qualité",
         "disponibilite":true
@@ -370,7 +418,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"robe" ,
+        "categorie":"Robes" ,
         "image":"assets/img/articles/robes/robe1.jpg" ,
         "description":"Bonne qualité",
         "disponibilite":true
@@ -378,7 +426,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"robe" ,
+        "categorie":"Robes" ,
         "image":"assets/img/articles/robes/robe2.jpg" ,
         "description":"Nouveautés",
         "disponibilite":true
@@ -386,7 +434,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"robe" ,
+        "categorie":"Robes" ,
         "image":"assets/img/articles/robes/robe3.jpg" ,
         "description":"Bonne qualité",
         "disponibilite":true
@@ -394,14 +442,14 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"robe" ,
+        "categorie":"Robes" ,
         "image":"assets/img/articles/robes/robe4.jpg" ,
         "description":"Bonne qualité",
         "disponibilite":true
     },    {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"robe" ,
+        "categorie":"Robes" ,
         "image":"assets/img/articles/robes/robe5.jpg" ,
         "description":"Bonne qualité",
         "disponibilite":true
@@ -409,7 +457,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"robe" ,
+        "categorie":"Robes" ,
         "image":"assets/img/articles/robes/robe6.jpg" ,
         "description":"Bonne qualité",
         "disponibilite":true
@@ -417,7 +465,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"robe" ,
+        "categorie":"Robes" ,
         "image":"assets/img/articles/robes/robe7.jpg" ,
         "description":"Bonne qualité",
         "disponibilite":true
@@ -425,7 +473,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"robe" ,
+        "categorie":"Robes" ,
         "image":"assets/img/articles/robes/robe8.jpg" ,
         "description":"Bonne qualité",
         "disponibilite":true
@@ -433,7 +481,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"robe" ,
+        "categorie":"Robes" ,
         "image":"assets/img/articles/robes/robe9.jpg" ,
         "description":"Bonne qualité",
         "disponibilite":true
@@ -441,7 +489,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"robe" ,
+        "categorie":"Robes" ,
         "image":"assets/img/articles/robes/robe10.jpg" ,
         "description":"Bonne qualité",
         "disponibilite":true
@@ -457,7 +505,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"robe" ,
+        "categorie":"Robes" ,
         "image":"assets/img/articles/robes/robe12.jpg" ,
         "description":"Bonne qualité",
         "disponibilite":true
@@ -465,7 +513,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"robe" ,
+        "categorie":"Robes" ,
         "image":"assets/img/articles/robes/robe13.jpg" ,
         "description":"Bonne qualité",
         "disponibilite":true
@@ -473,7 +521,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"robe" ,
+        "categorie":"Robes" ,
         "image":"assets/img/articles/robes/robe14.jpg" ,
         "description":"Bonne qualité",
         "disponibilite":true
@@ -481,7 +529,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"sandale" ,
+        "categorie":"Sandales" ,
         "image":"assets/img/articles/sandales/sandale1.jpg" ,
         "description":"Nouveautés",
         "disponibilite":true
@@ -489,7 +537,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"sandale" ,
+        "categorie":"Sandales" ,
         "image":"assets/img/articles/sandales/sandale2.jpg" ,
         "description":"Bonne qualité",
         "disponibilite":true
@@ -497,7 +545,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"sandale" ,
+        "categorie":"Sandales" ,
         "image":"assets/img/articles/sandales/sandale3.jpg" ,
         "description":"Bonne qualité",
         "disponibilite":true
@@ -505,7 +553,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"sandale" ,
+        "categorie":"Sandales" ,
         "image":"assets/img/articles/sandales/sandale4.jpg" ,
         "description":"Bonne qualité",
         "disponibilite":true
@@ -513,7 +561,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"sandale" ,
+        "categorie":"Sandales" ,
         "image":"assets/img/articles/sandales/sandale5.jpg" ,
         "description":"Nouveautés",
         "disponibilite":true
@@ -521,7 +569,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"sandale" ,
+        "categorie":"Sandales" ,
         "image":"assets/img/articles/sandales/sandale6.jpg" ,
         "description":"Bonne qualité",
         "disponibilite":true
@@ -529,7 +577,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"sandale" ,
+        "categorie":"Sandales" ,
         "image":"assets/img/articles/sandales/sandale7.jpg" ,
         "description":"Bonne qualité",
         "disponibilite":true
@@ -537,7 +585,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"sandale" ,
+        "categorie":"Sandales" ,
         "image":"assets/img/articles/sandales/sandale8.jpg" ,
         "description":"Bonne qualité",
         "disponibilite":true
@@ -561,7 +609,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"tee-shirt" ,
+        "categorie":"Tee-shirts" ,
         "image":"assets/img/articles/tee-shirt/teeshirt1.jpg" ,
         "description":"Bonne qualité",
         "disponibilite":true
@@ -569,7 +617,7 @@
     {
         "nom":"",
         "prix": 55.00 ,
-        "categorie":"tee-shirt" ,
+        "categorie":"Tee-shirts" ,
         "image":"assets/img/articles/tee-shirt/teeshirt2.jpg" ,
         "description":"Bonne qualité",
         "disponibilite":true
@@ -668,6 +716,103 @@
         "categorie":"Hommes" ,
         "image":"assets/img/articles/hommes/man5.png" ,
         "description":"Confortable",
+        "disponibilite":true
+    },
+    {
+        "nom":"",
+        "prix": 55.00 ,
+        "categorie":"Ceintures" ,
+        "image":"assets/img/articles/ceintures/ceinture1.jpg" ,
+        "description":"Léger",
+        "disponibilite":true
+    },
+    {
+        "nom":"",
+        "prix": 55.00 ,
+        "categorie":"Ceintures" ,
+        "image":"assets/img/articles/ceintures/ceinture2.jpg" ,
+        "description":"Léger",
+        "disponibilite":true
+    },
+    {
+        "nom":"",
+        "prix": 55.00 ,
+        "categorie":"Ceintures" ,
+        "image":"assets/img/articles/ceintures/ceinture3.jpg" ,
+        "description":"Léger",
+        "disponibilite":true
+    },
+    {
+        "nom":"",
+        "prix": 55.00 ,
+        "categorie":"Ceintures" ,
+        "image":"assets/img/articles/ceintures/ceinture4.jpg" ,
+        "description":"Léger",
+        "disponibilite":true
+    },
+
+    {
+        "nom":"",
+        "prix": 55.00 ,
+        "categorie":"Lunettes" ,
+        "image":"assets/img/articles/lunettes/lunettes1.jpg" ,
+        "description":"Léger",
+        "disponibilite":true
+    },
+    {
+        "nom":"",
+        "prix": 55.00 ,
+        "categorie":"Lunettes" ,
+        "image":"assets/img/articles/lunettes/lunettes2.jpg" ,
+        "description":"Léger",
+        "disponibilite":true
+    },
+    {
+        "nom":"",
+        "prix": 55.00 ,
+        "categorie":"Lunettes" ,
+        "image":"assets/img/articles/lunettes/lunettes3.jpg" ,
+        "description":"Léger",
+        "disponibilite":true
+    },
+    {
+        "nom":"",
+        "prix": 55.00 ,
+        "categorie":"Lunettes" ,
+        "image":"assets/img/articles/lunettes/lunettes4.jpg" ,
+        "description":"Léger",
+        "disponibilite":true
+    },
+    {
+        "nom":"",
+        "prix": 55.00 ,
+        "categorie":"Lunettes" ,
+        "image":"assets/img/articles/lunettes/lunettes5.jpg" ,
+        "description":"Léger",
+        "disponibilite":true
+    },
+    {
+        "nom":"",
+        "prix": 55.00 ,
+        "categorie":"Lunettes" ,
+        "image":"assets/img/articles/lunettes/lunettes6.jpg" ,
+        "description":"Léger",
+        "disponibilite":true
+    },
+    {
+        "nom":"",
+        "prix": 55.00 ,
+        "categorie":"Lunettes" ,
+        "image":"assets/img/articles/lunettes/lunettes7.jpg" ,
+        "description":"Léger",
+        "disponibilite":true
+    },
+    {
+        "nom":"",
+        "prix": 55.00 ,
+        "categorie":"Lunettes" ,
+        "image":"assets/img/articles/lunettes/lunettes8.png" ,
+        "description":"Léger",
         "disponibilite":true
     }
 ]

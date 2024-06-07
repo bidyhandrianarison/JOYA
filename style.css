@@ -206,7 +206,10 @@ input{
       display: block;
       cursor: pointer;
       z-index: 2;
+     
 }
+/**/
+/*AJOUTER AU PANIER*/
 #shop{
   position: absolute;
   display: none;

@@ -1,4 +1,4 @@
-import { login } from "./assets/js/formulaire.js";
+import { login,calculateTotal} from "./assets/js/formulaire.js";
 const produits=await fetch('produits.json').then(produits => produits.json());
 export function eraseContent(){
     document.querySelector('#dynamic').innerHTML=`
@@ -70,7 +70,7 @@ function afficherDetailProduit(produit){
                     <label for="quantite">Quantité</label>
                     <input type="number" name="quantite">
                 </div>
-                <input type="submit" value="AJOUTER AU PANIER">
+                <input type="submit" value="AJOUTER AU PANIER" id="addToCart">
             </form>
             <ul>
                 <li><img class="icone" src="assets/img/articles/rea_customer_service.png" alt=""><span>Service client au 06 49 54 94
@@ -167,7 +167,8 @@ login();
 const menu=document.querySelectorAll(".largeMenu .notShowed li");
 for(let i=0;i<menu.length;i++){
     menu[i].addEventListener("click",function(){
-        const produitsFiltres=produits.filter(produits => produits.categorie==menu[i].value);
+        console.log(menu[i].innerText);
+        const produitsFiltres=produits.filter(produits => produits.categorie==menu[i].innerText);
         titleNew.innerHTML="";
         eraseContent();
         genererProduits(produitsFiltres);

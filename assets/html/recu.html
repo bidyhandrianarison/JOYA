@@ -4,6 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Factures</title>
+    <style>
+        #shop{
+            width: 80vw;
+            height: max-content;
+        }
+        .headShop{
+            background-color: pink;
+            padding: 2vh auto;
+            height: 3vh;
+        }
+        .headShop h6{
+            text-align: center;
+            
+        }
+        .shopContent{
+            display: grid;
+            grid-template-columns: 2fr 3fr;
+        }
+        .shopContent div{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        button{
+            border: none;
+            background-color: pink;
+            color: white;
+        }
+        .buttonContainer{
+            display: flex;
+            gap: 1vw;
+        }
+    </style>
 </head>
 <body>
     <section id="shop">
@@ -13,17 +45,25 @@
         <div class="shopContent">
             <div>
                 <section><img src="" alt=""></section>
-                <section></section>
+                <section>
+                    <div>Nom du produit <span></span></div>
+                    <div><small>Prix</small> <span></span></div>
+                    <div>Pointure: <span>36</span></div>
+                    <div>Quantité: <span>1</span></div>
+                </section>
             </div>
             <div>
-                <div>Il y a <span class="nbreProduits"></span> produit dans</div>
-                <ul>
-                    <li>Robes</li>
-                    <li>Jupes</li>
-                    <li>Pantalon</li>
-                    <li>Tee-shirts</li>
-                    <li></li>
-                </ul>
+                <section>
+                    <div>Il y a <span class="nbreProduits"></span> produit dans</div>
+                <div><small>Sous-total: <span>total</span></small></div>
+                <div><small>Transport: gratuit</small></div>
+                <div><small>Total TTC <span></span></small></div>
+                <div class="buttonContainer">
+                    <button>CONTINUER VOS ACHATS</button>
+                    <button>COMMANDER</button>
+                </div>
+                </section>
+                <section></section>
             </div>
         </div>
 

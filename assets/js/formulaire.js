@@ -32,3 +32,10 @@ export function login(){
     `;
 })
 }
+export function calculateTotal(price,quantity){
+    return price * quantity;
+
+}
+export function afficherReceipt(){
+    
+}
