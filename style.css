@@ -12,6 +12,9 @@
   font-size: 1.5vw;
   font-family: amatic;
 }
+body{
+  display: flex;
+}
 ol,ul{
   padding-left: 0 !important;
 }
@@ -210,10 +213,51 @@ input{
 }
 /**/
 /*AJOUTER AU PANIER*/
+/*===================================================*/
+/*RECU*/
 #shop{
-  position: absolute;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 9998;
   display: none;
+  width: 80vw;
+  height: max-content;
+  background-color: white;
 }
+.headShop{
+  background-color: #d5959e;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shopContent{
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+.shopContent .detailShop{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+button{
+  border: none;
+  background-color: #d5959e;
+  color: white;
+}
+.buttonContainer{
+  display: flex;
+  gap: 1vw;
+}
+.imageBought img{
+  width: 100%;
+}
+.darkTheme{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/*===================================================*/
 .largeMenu .notShowed{
   background-color: white;
   width: 100%;

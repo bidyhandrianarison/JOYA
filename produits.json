@@ -814,5 +814,13 @@
         "image":"assets/img/articles/lunettes/lunettes8.png" ,
         "description":"Léger",
         "disponibilite":true
+    },
+    {
+        "nom":"Sac en cuir doré",
+        "prix": 65.00 ,
+        "categorie":"Sacs" ,
+        "image":"assets/img/articles/sacs/sac1.jpg" ,
+        "description":"Léger",
+        "disponibilite":true
     }
 ]

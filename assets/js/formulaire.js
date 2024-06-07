@@ -36,6 +36,40 @@ export function calculateTotal(price,quantity){
     return price * quantity;
 
 }
-export function afficherReceipt(){
-    
+export function afficherReceipt(nom,image,price,quantity){
+    const bouton =document.querySelector("#addToCart");
+    bouton.addEventListener("click",function (){
+        const sectionRecu=document.querySelector("#shop");
+        sectionRecu.innerHTML=`
+         <div class="headShop">
+            <h6>Le produit a bien été ajouté à votre panier.</h6>
+        </div>
+        <div class="shopContent">
+            <div class="detailShop">
+                <section class="imageBought"><img src="${image}" alt=""></section>
+                <section>
+                    <div>Nom du produit <span>${nom}</span></div>
+                    <div><small>Prix</small> <span>${price}</span></div>
+                    <div>Pointure: <span>36</span></div>
+                    <div>Quantité: <span>${quantity}</span></div>
+                </section>
+            </div>
+            <div>
+                <section>
+                    <div>Il y a <span class="nbreProduits"></span> produit dans</div>
+                <div><small>Sous-total: <span>total</span></small></div>
+                <div><small>Transport: gratuit</small></div>
+                <div><small>Total TTC <span>${calculateTotal(price,quantity)}</span></small></div>
+                <div class="buttonContainer">
+                    <button>CONTINUER VOS ACHATS</button>
+                    <button>COMMANDER</button>
+                </div>
+                </section>
+                <section></section>
+            </div>
+        </div>
+        `
+        document.getElementById("page").classList.toggle('darkTheme');
+        sectionRecu.style.display="block";
+    })
 }

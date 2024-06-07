@@ -1,4 +1,4 @@
-import { login,calculateTotal} from "./assets/js/formulaire.js";
+import { login,calculateTotal,afficherReceipt} from "./assets/js/formulaire.js";
 const produits=await fetch('produits.json').then(produits => produits.json());
 export function eraseContent(){
     document.querySelector('#dynamic').innerHTML=`
@@ -64,7 +64,7 @@ function afficherDetailProduit(produit){
             <form action="">
                 <div id="taille">
                     <label for="taille">Taille</label>
-                    <input type="number" name="taille">
+                    <input type="number" name="taille" value=1>
                 </div>
                 <div>
                     <label for="quantite">Quantité</label>
@@ -86,7 +86,13 @@ function afficherDetailProduit(produit){
         </section>
         </div>
     </div>
-    `;
+    `
+    ;
+    document.querySelector('form').addEventListener('submit', function(event) {
+        event.preventDefault();
+    });
+    const qte=document.querySelector('input[name="quantite"]');
+    afficherReceipt(produit.nom,produit.image,produit.prix,qte.value);
     productDetail.style.display="block";
     document.querySelector(".produits").style.display="none";
 }
@@ -140,6 +146,7 @@ barre.addEventListener("click",function(){
     genererProduits(produitsFiltres);
 });
 
+
 //PRODUCTS
 /*const articles = document.querySelectorAll("article");
 for(let i=0;i<articles.length;i++){
@@ -167,7 +174,6 @@ login();
 const menu=document.querySelectorAll(".largeMenu .notShowed li");
 for(let i=0;i<menu.length;i++){
     menu[i].addEventListener("click",function(){
-        console.log(menu[i].innerText);
         const produitsFiltres=produits.filter(produits => produits.categorie==menu[i].innerText);
         titleNew.innerHTML="";
         eraseContent();

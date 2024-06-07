@@ -8,21 +8,20 @@
         #shop{
             width: 80vw;
             height: max-content;
+            background-color: white;
         }
         .headShop{
             background-color: pink;
-            padding: 2vh auto;
-            height: 3vh;
-        }
-        .headShop h6{
-            text-align: center;
-            
+            height: 5vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         .shopContent{
             display: grid;
             grid-template-columns: 2fr 3fr;
         }
-        .shopContent div{
+        .shopContent .detailShop{
             display: grid;
             grid-template-columns: 1fr 1fr;
         }
@@ -35,6 +34,9 @@
             display: flex;
             gap: 1vw;
         }
+        .imageBought img{
+            width: 100%;
+        }
     </style>
 </head>
 <body>
@@ -43,8 +45,8 @@
             <h6>Le produit a bien été ajouté à votre panier.</h6>
         </div>
         <div class="shopContent">
-            <div>
-                <section><img src="" alt=""></section>
+            <div class="detailShop">
+                <section class="imageBought"><img src="../img/articles/bijoux/bijou1.jpg" alt=""></section>
                 <section>
                     <div>Nom du produit <span></span></div>
                     <div><small>Prix</small> <span></span></div>
