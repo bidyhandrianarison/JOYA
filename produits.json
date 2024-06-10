@@ -1,6 +1,6 @@
 [
     {
-        "nom":"",
+        "nom":"Baskets cl11 vert olive", 
         "prix": 55.00 ,
         "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket1.jpg" ,
@@ -16,7 +16,7 @@
         "disponibilite":true
     },
     {
-        "nom":"",
+        "nom":"Baskets findlay vert d eau",
         "prix": 55.00 ,
         "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket3.jpg" ,
@@ -24,7 +24,7 @@
         "disponibilite":true
     },
     {
-        "nom":"",
+        "nom":"Baskets dfranklin bleu denim",
         "prix": 55.00 ,
         "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket4.jpg" ,
@@ -32,7 +32,7 @@
         "disponibilite":true
     },
     {
-        "nom":"",
+        "nom":"Baskets findlay camel et dore",
         "prix": 55.00 ,
         "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket4.jpg" ,
@@ -40,7 +40,7 @@
         "disponibilite":true
     },
     {
-        "nom":"",
+        "nom":"baskets semerdjian or et blanc",
         "prix": 55.00 ,
         "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket4.jpg" ,
@@ -48,7 +48,7 @@
         "disponibilite":true
     },
     {
-        "nom":"",
+        "nom":"baskets vanessa wu eclair vert",
         "prix": 55.00 ,
         "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket5.jpg" ,
@@ -56,7 +56,7 @@
         "disponibilite":true
     },
     {
-        "nom":"",
+        "nom":"baskets colmar femme argentees",
         "prix": 55.00 ,
         "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket6.jpg" ,
@@ -64,7 +64,7 @@
         "disponibilite":true
     },
     {
-        "nom":"",
+        "nom":"baskets pepe jeans camel et rose",
         "prix": 55.00 ,
         "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket7.jpg" ,
@@ -72,7 +72,7 @@
         "disponibilite":true
     },
     {
-        "nom":"",
+        "nom":"baskets pepe jeans blanc et gris",
         "prix": 55.00 ,
         "categorie":"Baskets" ,
         "image":"assets/img/articles/baskets/basket8.jpg" ,

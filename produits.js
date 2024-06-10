@@ -11,6 +11,7 @@ export function eraseContent(){
       `;
 
 }
+//CREATION D'UNE FONCTION pour generer le contenu du section produits
 function genererProduits(produits){
     const sectionProduits=document.querySelector(".produits");
     for(let i=0;i<produits.length;i++){
@@ -44,6 +45,7 @@ function genererProduits(produits){
     sectionProduits.appendChild(produitElement);
     };
 };
+//FONCTION QUI AFFICHE LE DETAIL DU PRODUIT LORSQU'ON CLIQUE DESSUS
 function afficherDetailProduit(produit){
     const productDetail=document.querySelector('#productDetail');
     titleNew.innerHTML="";
@@ -113,6 +115,7 @@ filtreBasket.addEventListener("click",function(){
     eraseContent();
     genererProduits(produitsFiltres);
 });
+//FILTRE ACCESSOIRE
 const filtreAccessoire=document.getElementById("accessories");
 filtreAccessoire.addEventListener("click",function(){
     const produitsFiltres=produits.filter(produits => produits.categorie==="Accessoire");
@@ -120,6 +123,7 @@ filtreAccessoire.addEventListener("click",function(){
     eraseContent();
     genererProduits(produitsFiltres);
 });
+//FILTRE BIJOUX
 const filtreJewelry=document.getElementById("jewelry");
 filtreJewelry.addEventListener("click",function(){
     const produitsFiltres=produits.filter(produits => produits.categorie==="Bijoux");
@@ -127,6 +131,7 @@ filtreJewelry.addEventListener("click",function(){
     eraseContent();
     genererProduits(produitsFiltres);
 });
+//FILTRE HOMME
 const filtreMan=document.getElementById("man");
 filtreMan.addEventListener("click",function(){
     const produitsFiltres=produits.filter(produits => produits.categorie==="Hommes");
@@ -146,32 +151,8 @@ barre.addEventListener("click",function(){
     eraseContent();
     genererProduits(produitsFiltres);
 });
-
-
-//PRODUCTS
-/*const articles = document.querySelectorAll("article");
-for(let i=0;i<articles.length;i++){
-    articles[i].addEventListener('click',function(){
-        
-    })
-}*/
-//MONTRER LES ELEMENTS CACHES ONCLICK
-/*const hidden=document.querySelectorAll(".notShowed");
-const account=document.querySelector("#profile");
-account.addEventListener("click",function(){
-    account.style.cursor="pointer";
-    hidden[0].style.display = hidden[0].style.display==="block" ? "none": "block"
-    // if( hidden[0].style.display==="block"){
-    //     hidden[0].style.display="none";
-    //     document.querySelector(".showed").style.color="black";
-    // }
-    // else{
-    //     hidden[0].style.display="block";
-    //     document.querySelector(".showed").style.color="#d5959e";
-    // }
-});*/
-//SE CONNECTER
 login();
+
 const menu=document.querySelectorAll(".largeMenu .notShowed li");
 for(let i=0;i<menu.length;i++){
     menu[i].addEventListener("click",function(){
