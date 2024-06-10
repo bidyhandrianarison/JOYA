@@ -68,12 +68,13 @@ export function afficherReceipt(nom,image,price,quantity){
             </div>
         </div>
         `
+        document.querySelector('#nbreShopping').value= parseInt(document.querySelector('#nbreShopping').value)+1;
         document.getElementById("page").classList=('darkTheme');
         sectionRecu.style.display="block";
         const boutonContinue= document.querySelector("#continue");
         boutonContinue.addEventListener("click",function(){
              sectionRecu.style.display="none";
-             document.getElementById("page>*").classList.toggle('darkTheme');
+             document.getElementById("page").classList.toggle('darkTheme');
          })
     
 }

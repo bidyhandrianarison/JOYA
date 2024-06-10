@@ -16,10 +16,12 @@ function genererProduits(produits){
     const sectionProduits=document.querySelector(".produits");
     for(let i=0;i<produits.length;i++){
         const produitElement=document.createElement("article");
+        const containerElement=document.createElement('div');
+        produitElement.appendChild(containerElement);
         //IMAGE
         const imageElement=document.createElement("img");
         imageElement.src=produits[i].image;
-        produitElement.appendChild(imageElement);
+        containerElement.appendChild(imageElement);
         //NOM DU PRODUIT
         const nomElement=document.createElement("h2");
         nomElement.innerText=produits[i].nom ?? "";
@@ -96,7 +98,6 @@ function afficherDetailProduit(produit){
         afficherReceipt(produit.nom,produit.image,produit.prix,qte.value);
     });   
     productDetail.style.display="block";
-    document.querySelector('#nbreShopping').value= parseInt(document.querySelector('#nbreShopping').value)+1;
     document.querySelector(".produits").style.display="none";
 }
 //PAGE D'ACCUEIL
