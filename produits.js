@@ -90,10 +90,11 @@ function afficherDetailProduit(produit){
     ;
     document.querySelector('form').addEventListener('submit', function(event) {
         event.preventDefault();
-    });
-    const qte=document.querySelector('input[name="quantite"]');
-    afficherReceipt(produit.nom,produit.image,produit.prix,qte.value);
+        let qte=document.querySelector('input[name="quantite"]');
+        afficherReceipt(produit.nom,produit.image,produit.prix,qte.value);
+    });   
     productDetail.style.display="block";
+    document.querySelector('#nbreShopping').value= parseInt(document.querySelector('#nbreShopping').value)+1;
     document.querySelector(".produits").style.display="none";
 }
 //PAGE D'ACCUEIL

@@ -37,8 +37,7 @@ export function calculateTotal(price,quantity){
 
 }
 export function afficherReceipt(nom,image,price,quantity){
-    const bouton =document.querySelector("#addToCart");
-    bouton.addEventListener("click",function (){
+
         const sectionRecu=document.querySelector("#shop");
         sectionRecu.innerHTML=`
          <div class="headShop">
@@ -61,7 +60,7 @@ export function afficherReceipt(nom,image,price,quantity){
                 <div><small>Transport: gratuit</small></div>
                 <div><small>Total TTC <span>${calculateTotal(price,quantity)}</span></small></div>
                 <div class="buttonContainer">
-                    <button>CONTINUER VOS ACHATS</button>
+                    <button id="continue">CONTINUER VOS ACHATS</button>
                     <button>COMMANDER</button>
                 </div>
                 </section>
@@ -69,7 +68,12 @@ export function afficherReceipt(nom,image,price,quantity){
             </div>
         </div>
         `
-        document.getElementById("page").classList.toggle('darkTheme');
+        document.getElementById("page").classList=('darkTheme');
         sectionRecu.style.display="block";
-    })
+        const boutonContinue= document.querySelector("#continue");
+        boutonContinue.addEventListener("click",function(){
+             sectionRecu.style.display="none";
+             document.getElementById("page").classList.toggle('darkTheme');
+         })
+    
 }
