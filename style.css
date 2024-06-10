@@ -262,7 +262,8 @@ button{
   width: 100%;
 }
 .darkTheme{
-  background-color: rgba(0, 0, 0, 0.5);
+ /* background-color: rgba(0, 0, 0, 0.5);*/
+ filter: brightness(50%);
 }
 /*===================================================*/
 .largeMenu .notShowed{
