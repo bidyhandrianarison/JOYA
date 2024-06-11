@@ -188,6 +188,7 @@ article:hover img{
   transform: scale(1.1);
   cursor: pointer;
   filter: brightness(50%);
+  transition: 1.5s;
 }
 .iconeCadre span{
   float: left;
@@ -268,6 +269,7 @@ button{
  /* background-color: rgba(0, 0, 0, 0.5);*/
   background-color: rgba(0, 0, 0, 0.521);
  filter: brightness(50%);
+ position: fixed;
 }
 /*===================================================*/
 .largeMenu .notShowed{
@@ -277,6 +279,52 @@ button{
 .largeMenu .notShowed li:hover{
   color: #d5959e;
 }
+/*===================================================*/
+/*DETAIL PRODUIT*/
+
+.extern{
+  display: flex;
+  flex-direction: column;
+}
+#taille input{
+  background-color: rgba(206, 201, 201, 0.795);
+}
+.information input[type=submit]{
+  background-color: #d5959e;
+  color: whitesmoke;
+  width: 35vw;
+  padding: 1vw;
+}
+.information form{
+  display: flex;
+  flex-direction: column;
+}
+.information form div{
+  width: 40vw;
+  display: flex;
+  justify-content: space-between;
+}
+.information form div input{
+  width: 50%;
+}
+.information h2,.information h4,.information hr{
+  color: #d5959e;
+}
+.information hr{
+  border: 1px solid;
+}
+/*===================================================*/
+/*MENU HAMBURGER*/
+.mobileMenu{
+  background: white;
+  display: none;
+}
+.mobileMenu div:hover{
+  background-color: rgba(0, 0, 0, 0.219);
+  cursor: pointer;
+}
+/*===================================================*/
+
 
 @media screen and (min-width:768px) {
   .produits{
@@ -300,6 +348,12 @@ button{
 a{
   text-decoration: none;
   color: black;
+}
+.products{
+  width:50vw;
+}
+.extern{
+  flex-direction: row;
 }
     
 }

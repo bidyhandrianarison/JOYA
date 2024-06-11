@@ -26,22 +26,22 @@ h2,h4,hr{
 hr{
     border: 1px solid;
 }
-input[type=submit]{
+.information input[type=submit]{
     background-color: #d5959e;
     color: whitesmoke;
     width: 35vw;
     padding: 1vw;
 }
-form{
+.information form{
     display: flex;
     flex-direction: column;
 }
-form div{
+.information form div{
     width: 40vw;
     display: flex;
     justify-content: space-between;
 }
-form div input{
+.information form div input{
     width: 50%;
 }
 #taille input{

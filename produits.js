@@ -54,7 +54,7 @@ function afficherDetailProduit(produit){
     productDetail.innerHTML=
     `
     <div>
-    <link rel="stylesheet" href="assets/css/products.css">
+   
         <div class="extern">
         <section class="products">
             <div class="mainArticle">
@@ -163,3 +163,14 @@ for(let i=0;i<menu.length;i++){
         genererProduits(produitsFiltres);
     })
 }
+/*===================================================*/
+/*const mobileMenu=document.querySelector('.mobileMenu div');
+for(let i=0;i<mobileMenu.length;i++)
+{
+    mobileMenu[i].addEventListener("click",function(){
+        const produit=produits.filter(produits => mobileMenu[i].innerText)===produits.categorie;
+        titleNew.innerHTML="";
+        eraseContent();
+        genererProduits(produit);
+    })
+}*/
